@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: sans-serif;
+}
+
+header{
+	position: relative;
+	margin: auto;
+	margin-top: 5px;
+	width: 1000px;
+	height: 100px;
+	background-color: grey;
+}
+
+#logo{
+	width: 90px;
+	height: 90px;
+	background-color: black;
+	margin: 5px;
+	position: absolute;
+}
+
+nav{
+	position: relative;
+	margin: auto;
+	margin-top: 2px;
+	width: 1000px;
+	height: 50px;
+	/*border-bottom: 1px solid black;*/
+	background-color: grey;
+}
+
+nav ul{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 500px;
+	height: 50px;
+}
+
+nav ul li{
+	float: left;
+	width: 124px;
+	line-height:50px;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	border-right: 1px solid black;
+}
+
+section#acerca_de_mi{
+	position: relative;
+	margin: auto;
+	margin-top: 2px;
+	width: 1000px;
+	height: 299px;
+	background-color: grey;
+}
+
+section#acerca_de_mi ul li{
+	float: left;
+	width: 333px;
+	height: 299px;
+}
+
+section#acerca_de_mi ul li h1{
+	margin: 23px 27px;
+	font-weight: 100;
+	font-size: 25px;
+}
+
+section#acerca_de_mi ul li p{
+	margin: 23px 28px;
+	font-size: 15px;
+}
+
+section#acerca_de_mi ul li img{
+	margin: 1px 29px;
+	width: 273px;
+	height: 83px;
+	background: silver;
+}
+
+#bottom{
+	position: relative;
+	float: right;
+	margin: auto;
+	width: 250px;
+	height: 100px;
+	/*background-color: blue;*/
+}
+
+#bottom ul li{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background: white;
+	margin: 5px;
+}
+
+#bottom ul li:first-child{
+	background: url(../img/facebookicono.png);
+	background-size: cover;
+}
+
+#bottom ul li:nth-child(2){
+	/*background: url(../img/linkedin.png);*/
+	background: url(../img/LI-In-Bug.png);
+	background-size: cover;
+}
+
+#bottom ul li:nth-child(3){
+	background: url(../img/instagramicono_4.png);
+	background-size: cover;
+}
+
+#bottom ul li:last-child{
+	background: url(../img/twittericono.png);
+	background-size: cover;
+}
+
+#bottom ul li a{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+
+footer{
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 50px;
+	text-align: center;
+	color: white;
+	line-height: 50px;
+	font-size: 15px;
+	background: black;
+}
